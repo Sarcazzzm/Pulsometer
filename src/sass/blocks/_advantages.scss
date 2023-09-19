@@ -2,18 +2,11 @@
     min-height: 472px;
     background: #f6f6f6;
     padding: 70px 0 78px 0;
-    &__header{
-        color: #0d0d0d;
-        font-size: 30px;
-        font-weight: 700;
-        text-align: center;
-    }
     &__wrapper{
         margin: 0 auto;
         margin-top: 65px;
         display: flex;
-        justify-content: space-between;
-        
+        justify-content: space-between;   
     }
     &__item{
         display: flex;
@@ -30,7 +23,8 @@
         }
         h3{
             font-size: 18px;
-            margin: 38px 0 26px 0;
+            margin-top: 38px;
+            margin-bottom: 26px;
             font-weight: 700;
         }
         a{
