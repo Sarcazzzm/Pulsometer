@@ -1,0 +1,29 @@
+.feedback{
+    h2{
+        margin-bottom: 70px;
+    }
+    &__wrapper{
+        display: flex;
+        margin-bottom: 102px;
+        img{
+            height: 169px;
+            margin-right: 62px;
+        }
+    }
+    &_descr{
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        line-height: 20px;
+        span{
+            color:#646464;
+            font-size: 14px;
+        }
+        .feedback_name{
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+}
