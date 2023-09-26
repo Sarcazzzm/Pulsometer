@@ -8,32 +8,12 @@ $(document).ready(function(){
         nextArrow:'<button type="button" class="slick-next"><img src="icons/right.png"></button>',
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 992,
                 settings: {
-                  slidesToShow: 3,
-                  slidesToScroll: 3,
-                  infinite: true,
-                  dots: true
+                    dots: true,
+                    arrows: false
                 }
-              },
-              {
-                breakpoint: 600,
-                settings: {
-                  slidesToShow: 3,
-                  slidesToScroll: 3
-                  infinite: true,
-                  dots: true
-                }
-              },
-              {
-                breakpoint: 480,
-                settings: {
-                  slidesToShow: 3,
-                  slidesToScroll: 3
-                  infinite: true,
-                  dots: true
-                }
-              }
+            }
         ]
     });
 
