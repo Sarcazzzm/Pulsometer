@@ -31,4 +31,10 @@
             color:$main-color;
         }
     }
+    .anim_heart{
+        animation: heartbeat 1.5s ease infinite;
+        &:hover{
+            animation-play-state: paused;
+        }
+    }
 }

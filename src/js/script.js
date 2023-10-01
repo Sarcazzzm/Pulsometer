@@ -88,7 +88,7 @@ $(document).ready(function(){
     $('form').submit(function(e) {
         e.preventDefault();
 
-        if(!(this).valid()){
+        if(!$(this).valid()){
             return;
         }
 
@@ -105,5 +105,14 @@ $(document).ready(function(){
         });
         return false;
     });
+
+    $(window).scroll(function(){
+        if ($(this).scrollTop()>1100){
+            $('.pageup').fadeIn();
+        } else{
+            $('.pageup').fadeOut()
+        }
+    })
+    new WOW().init();
 });
 
