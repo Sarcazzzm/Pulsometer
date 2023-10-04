@@ -116,8 +116,8 @@
             width: calc(200% + 40px);
         }
         &__content{
+            
             width: 50%;
-            margin-right: 0px;
             transform: translateX(-100%);
             &_active{
                 transform: translateX(0%);

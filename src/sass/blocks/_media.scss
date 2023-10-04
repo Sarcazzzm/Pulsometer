@@ -42,6 +42,10 @@
             font-size: 14px;
         }
     }
+    .pageup{
+        bottom: 20px;
+        right: 20px;
+    }
 }
 @media(max-width:991px){
     .advantages{
@@ -201,6 +205,10 @@
             height: 230px;
             padding: 30px 38px 60px 38px;
         }
+    }
+    .pageup{
+        bottom: 13px;
+        right: 13px;
     }
 }
 @media(max-width:575px){
@@ -372,5 +380,9 @@
             width: 240px;
             font-size: 12px;
         }
+    }
+    .pageup{
+        width: 30px;
+        height: 30px;
     }
 }
